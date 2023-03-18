@@ -1,0 +1,14 @@
+
+{
+    email: "",
+    name: "",
+    age: 0,
+    class: "upper",
+    species: "",
+    breed: "",
+    color: "",
+    sex: "",
+    castrated: "",
+    friendliness: "no-.-",
+    description: ""
+}

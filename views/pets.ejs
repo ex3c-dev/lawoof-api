@@ -1,0 +1,20 @@
+<h3>Pets</h3>
+
+<form method="post" action="/pets">
+	<input type="text" name="name" placeholder="Pet name hint: Cuthulu ^.^">
+	<input type="text" name="id" placeholder="Userid">
+	<input type="submit" value="Add Pet">
+</form>
+
+
+<ul>
+<% for(var i=0; i<pets.value.length; i++) { %>
+	<li><%= pets.value[i].name %></li>
+<% } %>
+</ul>
+
+
+
+
+
+
